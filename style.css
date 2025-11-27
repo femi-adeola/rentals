@@ -1,0 +1,718 @@
+body {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+
+
+.first-section {
+  background-image: url(images/background.png);
+  width: 100%;
+  padding-bottom: 90px;
+
+  
+}
+
+.header-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.affordable-map {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first-paragraph {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.map-reading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.first-map {
+  width: 350px;
+}
+
+.first-button {
+  margin-left: 15px;
+}
+
+.all-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-1 {
+  height: 35px;
+  padding-bottom: 2px;
+  padding-top: 3px;
+}
+
+.all-type {
+  padding-left: 12px;
+}
+
+.second-section {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.minimum-living {
+  font-size: 30px;
+  width: 75%;
+  text-align: center;
+}
+
+.small-pool {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pool-img {
+  width: 400px;
+  height: auto;
+}
+
+.img-text {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.pay-dollar {
+  position: relative;
+}
+
+.dollar-text {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.third-section {
+  background-color: rgb(243, 240, 235);
+}
+
+.property-button {
+  color: white;
+  background-color: orangered;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 13px;
+  border-radius: 4px;
+  border: transparent;
+}
+
+.view-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 40px;
+}
+
+.property-list {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.property-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 40px;
+}
+
+.property-card {
+  margin: 0;
+  background: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.house-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 3px 3px 0 0;
+  object-fit: cover;
+  display: block;
+}
+
+.property-info {
+  padding-left: 15px;
+}
+
+.room-price {
+  color: red;
+  font-weight: bold;
+  line-height: 0.5px;
+}
+
+.room-type {
+  font-size: 12px;
+}
+
+.image-no {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border: 1px solid red;
+  padding: 16px 16px;
+  margin: 24px 24px;
+  gap: 20px;
+  
+}
+
+.pages{
+  color: red;
+  }
+
+
+
+.fourth-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 85px;
+}
+
+.seven-days-leases {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.choose-monthly {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.flexible-container {
+  position: relative;
+  display: inline-block;
+}
+
+.flexible-leases {
+  display: block;
+  z-index: 1;
+}
+
+.text-images {
+  position: absolute;
+  transform: translate(70%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+  font: 22px;
+  font-weight: bold;
+}
+
+.image-box {
+  position: relative;
+  display: inline-block;
+  max-width: 260px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.day7 {
+  height: auto;
+  padding-top: 60px;
+}
+
+.texts-images {
+  position: absolute;
+  transform: translate(60%);
+  text-align: center;
+  color: white;
+  font: 12px;
+  font-weight: bold;
+  top: 90px;
+}
+
+.textz-images {
+  position: absolute;
+  transform: translate(60%);
+  text-align: center;
+  color: white;
+  font: 12px;
+  font-weight: bold;
+}
+
+.choose-roomate {
+  height: auto;
+  width: 90%;
+}
+
+.textzz-images {
+  position: absolute;
+  transform: translate(90%);
+  text-align: center;
+  color: white;
+  font: 12px;
+  font-weight: bold;
+}
+
+.need-it {
+  line-height: 25px;
+}
+
+.search-rooms {
+  background-color: rgb(241, 73, 11);
+  color: white;
+  padding: 11px 15px;
+  border-radius: 8px;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 35px;
+  place-items: center;
+}
+
+.form-group {
+  margin-bottom: 45px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  padding-left: 10px;
+  border: transparent;
+}
+
+.star {
+  color: red;
+}
+
+.new-property {
+  color: red;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.your-property {
+  text-align: center;
+  font-size: 20px;
+}
+
+.upload-1 {
+  margin-top: 40px;
+  padding: 10px 20px;
+}
+
+.image-here {
+  text-align: center;
+}
+
+.browse {
+  color: red;
+}
+
+#fileupload{
+  display: none;
+}
+
+.upload-box{
+  width: auto;
+  height: auto;
+  border: 2px dashed red;
+  display: flex;
+  justify-content: center;
+  place-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+}
+
+.upload-box input{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+
+
+.lasts-button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.last-button {
+  padding: 15px 80px;
+  font-size: 15px;
+  margin-top: 40px;
+  color: white;
+  background-color: orangered;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: transparent;
+  border-top: transparent;
+}
+
+.sixth-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  background-color: rgb(241, 239, 234);
+  margin-bottom: 120px;
+}
+
+.harry-pictures {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.harry-property {
+  line-height: 2px;
+}
+
+.harry-wilson {
+  color: red;
+}
+
+.last-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.call-locatiopn {
+  display: flex;
+  flex-direction: column;
+}
+
+.calls-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.location-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.media-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.last-logo {
+  padding-top: 20px;
+  
+}
+
+.last-one ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.last-one ul li a {
+  color: black;
+}
+
+@media (max-width: 768px) {
+
+  .affordable-map {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+.first-section {
+  background-image: url(images/background.png);
+  padding-bottom: 90px;
+}
+
+  .small-pool{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .minimum-living{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .property-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .property-card{
+    width: 200px;
+  }
+
+  .fourth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+  }
+
+  .last-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .last-logo{
+    text-align: center;
+  }
+
+  .last-section{
+    align-items: center;
+  }
+  
+  .upload-box{
+  width: auto;
+  height: auto;
+  border: 2px dashed red;
+  display: flex;
+  justify-content: center;
+  place-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+}
+
+.upload-box input{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+}
+
+@media only screen and (max-width: 480px){
+    
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-text{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+
+.property-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  gap: 20px;
+}
+.property-card{
+  width: 180px;
+}
+
+.image-no{
+  gap: 40px;
+  padding-left: 15px;
+}
+
+.flexible-leases {
+  display: block;
+  z-index: 1;
+  width: 180px;
+}
+
+.text-images {
+  position: absolute;
+  transform: translate(30%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+  font: 18px;
+  font-weight: bold;
+}
+
+.day7 {
+  height: auto;
+  padding-top: 60px;
+  width: 180px;
+
+}
+
+
+.texts-images {
+  position: absolute;
+  transform: translate(30%);
+  text-align: center;
+  color: white;
+  font: 12px;
+  font-weight: bold;
+  top: 0px;
+}
+
+.monthly-house{
+  width: 180px;
+}
+
+.textz-images {
+  position: absolute;
+  transform: translate(30%);
+  text-align: center;
+  color: white;
+  font: 12px;
+  font-weight: bold;
+}
+
+.choose-roomate{
+  width: 180px;
+
+}
+
+.textzz-images {
+  position: absolute;
+  transform: translate(40%);
+  text-align: center;
+  color: white;
+  font: 12px;
+  font-weight: bold;
+}
+
+.your-property {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.new-property {
+  color: red;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 35px;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+.sixth-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+.upload-box{
+  width: auto;
+  height: auto;
+  border: 2px dashed red;
+  display: flex;
+  justify-content: center;
+  place-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+}
+
+.upload-box input{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+}
+
+@media (max-width: 1024px){
+
+    .property-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
