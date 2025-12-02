@@ -7,14 +7,10 @@ body {
   }
 }
 
-
-
 .first-section {
   background-image: url(images/background.png);
   width: 100%;
   padding-bottom: 90px;
-
-  
 }
 
 .header-1 {
@@ -200,22 +196,42 @@ body {
   padding-bottom: 12px;
 }
 
-.pagination {
+.pagination-cover{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  border: 1px solid red;
-  padding: 16px 16px;
-  margin: 24px 24px;
-  gap: 20px;
-  
+  width: 100%;
 }
 
-.pages{
-  color: red;
-  }
+.pagination {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #7e7777;
+  border-radius: 8px;
+  margin: 20px auto;
+}
 
+.prev {
+  padding: 10px 18px;
+  text-decoration: none;
+  color: orangered;
+  border-right: 2px solid #7e7777;
+  background: white;
+}
 
+.prevs{
+    padding: 10px 18px;
+  text-decoration: none;
+  color: orangered;
+  background: white;
+}
+
+.page-active {
+  color: white;
+  padding: 10px 18px;
+  background: red;
+  border-right: 2px solid #7e7777;
+}
 
 .fourth-section {
   display: flex;
@@ -369,11 +385,11 @@ body {
   color: red;
 }
 
-#fileupload{
+#fileupload {
   display: none;
 }
 
-.upload-box{
+.upload-box {
   width: auto;
   height: auto;
   border: 2px dashed red;
@@ -386,14 +402,12 @@ body {
   position: relative;
 }
 
-.upload-box input{
-  position:absolute;
+.upload-box input {
+  position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0;
 }
-
-
 
 .lasts-button {
   align-items: center;
@@ -477,7 +491,6 @@ body {
 
 .last-logo {
   padding-top: 20px;
-  
 }
 
 .last-one ul {
@@ -492,232 +505,222 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .affordable-map {
     display: flex;
     flex-direction: column;
   }
 
-  
-.first-section {
-  background-image: url(images/background.png);
-  padding-bottom: 90px;
-}
+  .first-section {
+    background-image: url(images/background.png);
+    padding-bottom: 90px;
+  }
 
-  .small-pool{
+  .small-pool {
     display: flex;
     flex-direction: column;
   }
 
-  .minimum-living{
+  .minimum-living {
     text-align: center;
     font-size: 30px;
     width: 100%;
   }
 
-  .property-container{
+  .property-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-left: 20px;
     padding-right: 10px;
   }
-  .image-no{
-  gap: 40px;
-  padding-left: 15px;
-}
+  .image-no {
+    gap: 40px;
+    padding-left: 15px;
+  }
 
-  .property-card{
+  .property-card {
     width: 200px;
   }
 
-  .fourth-section{
+  .fourth-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 80px;
   }
 
-  .last-section{
+  .last-section {
     display: flex;
     flex-direction: column;
   }
 
-  .last-logo{
+  .last-logo {
     text-align: center;
   }
 
-  .last-section{
+  .last-section {
     align-items: center;
   }
-  
-  .upload-box{
-  width: auto;
-  height: auto;
-  border: 2px dashed red;
-  display: flex;
-  justify-content: center;
-  place-content: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 10px;
-  position: relative;
+
+  .upload-box {
+    width: auto;
+    height: auto;
+    border: 2px dashed red;
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .upload-box input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
 }
 
-.upload-box input{
-  position:absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
+@media only screen and (max-width: 480px) {
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .property-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    gap: 10px;
+  }
+  .property-card {
+    width: 180px;
+  }
+
+  .image-no {
+    gap: 40px;
+    padding-left: 15px;
+  }
+
+  .flexible-leases {
+    display: block;
+    z-index: 1;
+    width: 180px;
+  }
+
+  .text-images {
+    position: absolute;
+    transform: translate(30%);
+    z-index: 2;
+    text-align: center;
+    color: white;
+    font: 18px;
+    font-weight: bold;
+  }
+
+  .day7 {
+    height: auto;
+    padding-top: 60px;
+    width: 180px;
+  }
+
+  .texts-images {
+    position: absolute;
+    transform: translate(30%);
+    text-align: center;
+    color: white;
+    font: 12px;
+    font-weight: bold;
+    top: 0px;
+  }
+
+  .monthly-house {
+    width: 180px;
+  }
+
+  .textz-images {
+    position: absolute;
+    transform: translate(30%);
+    text-align: center;
+    color: white;
+    font: 12px;
+    font-weight: bold;
+  }
+
+  .choose-roomate {
+    width: 180px;
+  }
+
+  .textzz-images {
+    position: absolute;
+    transform: translate(40%);
+    text-align: center;
+    color: white;
+    font: 12px;
+    font-weight: bold;
+  }
+
+  .your-property {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .new-property {
+    color: red;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+  }
+
+  .form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 35px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+  }
+
+  .sixth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .upload-box {
+    width: auto;
+    height: auto;
+    border: 2px dashed red;
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .upload-box input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
 }
 
-}
-
-@media only screen and (max-width: 480px){
-    
-.nav-links ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-}
-
-.img-text{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-}
-
-
-.property-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 10px;
-  gap: 10px;
-}
-.property-card{
-  width: 180px;
-}
-
-.image-no{
-  gap: 40px;
-  padding-left: 15px;
-}
-
-.flexible-leases {
-  display: block;
-  z-index: 1;
-  width: 180px;
-}
-
-.text-images {
-  position: absolute;
-  transform: translate(30%);
-  z-index: 2;
-  text-align: center;
-  color: white;
-  font: 18px;
-  font-weight: bold;
-}
-
-.day7 {
-  height: auto;
-  padding-top: 60px;
-  width: 180px;
-
-}
-
-
-.texts-images {
-  position: absolute;
-  transform: translate(30%);
-  text-align: center;
-  color: white;
-  font: 12px;
-  font-weight: bold;
-  top: 0px;
-}
-
-.monthly-house{
-  width: 180px;
-}
-
-.textz-images {
-  position: absolute;
-  transform: translate(30%);
-  text-align: center;
-  color: white;
-  font: 12px;
-  font-weight: bold;
-}
-
-.choose-roomate{
-  width: 180px;
-
-}
-
-.textzz-images {
-  position: absolute;
-  transform: translate(40%);
-  text-align: center;
-  color: white;
-  font: 12px;
-  font-weight: bold;
-}
-
-.your-property {
-  text-align: center;
-  font-size: 15px;
-}
-
-
-.new-property {
-  color: red;
-  text-align: center;
-  padding-top: 40px;
-  font-size: 30px;
-}
-
-.form-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding-left: 35px;
-  justify-content: center;
-  align-items: center;
-  place-items: center;
-}
-
-.sixth-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 50px;
-}
-.upload-box{
-  width: auto;
-  height: auto;
-  border: 2px dashed red;
-  display: flex;
-  justify-content: center;
-  place-content: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 10px;
-  position: relative;
-}
-
-.upload-box input{
-  position:absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-}
-
-@media (max-width: 1024px){
-
-    .property-container{
+@media (max-width: 1024px) {
+  .property-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
