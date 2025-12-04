@@ -436,12 +436,15 @@ body {
 .sixth-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 80px;
   margin-top: 80px;
   background-color: rgb(241, 239, 234);
   margin-bottom: 120px;
 }
+
+
 
 .harry-pictures {
   display: flex;
@@ -456,6 +459,10 @@ body {
 
 .harry-wilson {
   color: red;
+}
+
+.right-section iframe{
+ height: 350px;
 }
 
 .last-section {
